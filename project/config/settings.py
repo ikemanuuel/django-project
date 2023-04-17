@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-d-q+_#o=meojmn)w(a+!d_7&$ne_!3xc5n(uw!(w#7n2#lw+g7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # mike
 
@@ -148,8 +148,8 @@ DJOSER = {
 
 }
 # EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
-# EMAIL_HOST_USER = 'a4d6101781f5c2'
-# EMAIL_HOST_PASSWORD = 'eaa4ec48db8e3d'
+# EMAIL_HOST_USER = 'de76926878fe4e'
+# EMAIL_HOST_PASSWORD = '5254257f973fd3'
 # EMAIL_PORT = '2525'
 
 
@@ -160,6 +160,6 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'darkibahay@gmail.com'
-EMAIL_HOST_PASSWORD = 'bektumhudjxatoar'
+EMAIL_HOST_PASSWORD = 'qlwufsqhtauwmdys'
 
 CORS_ORIGIN_ALLOW_ALL = True
