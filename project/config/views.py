@@ -29,7 +29,7 @@ def activate_account(request, uidb64, token):
 
         send_mail(subject, message, from_email, [to_email])
         messages.success(request, 'Your account has been activated.')
-        return redirect('http://localhost:3000/Activated')
+        return redirect('http://192.168.1.120:3000/Activated')
     else:
         messages.error(request, 'Activation link is invalid or has expired.')
         return redirect('http://localhost:3000/')
