@@ -161,6 +161,6 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'darkibahay@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'qlwufsqhtauwmdys'
+EMAIL_HOST_PASSWORD = 'onhggemnpxopkngd'
 
 CORS_ORIGIN_ALLOW_ALL = True
